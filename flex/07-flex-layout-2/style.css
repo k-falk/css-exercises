@@ -25,4 +25,58 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.middle {
+  display: flex;
+  flex: 1;
+
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;  
+  margin:0px;
+  padding: 0px;
+  /* border: 10px solid red; */
+
+}
+
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  
+}
+
+li{
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header, .footer {
+  text-align: center;
 }
